@@ -18,6 +18,7 @@ const CounterHOC = (Component, data) => {
     render() {
       return (
         <Component
+          {...this.props}
           eventCount={this.state.count}
           handleEventClick={this.handleClick}
         />

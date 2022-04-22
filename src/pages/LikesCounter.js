@@ -1,6 +1,12 @@
 import React from "react";
 import CounterHOC from "../HOC/CounterHOC";
 
+/**
+ * HOC is a Higher Order Component used as a composition pattern of react to
+ * reduce the common code and make it as a HOC so that code can become reusable
+ * It increases the code quality and make the application fast.
+ */
+
 const LikesCounter = (props) => {
   const { eventCount, handleEventClick } = props;
 
